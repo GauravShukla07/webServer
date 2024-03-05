@@ -99,7 +99,9 @@ res.render('error', {
 })
 })
 
-// starting the server at port 3000
-app.listen(3000, () => {
+const Port = process.env.PORT || 3000
+
+// starting the server at "Port" if provided as an environment variable or 3000 if not
+app.listen(Port, () => {
   console.log('Server started on port 3000')
 })

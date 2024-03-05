@@ -17,9 +17,11 @@
     "geocode": "^0.0.3",
     "hbs": "^4.2.0",
     "node-fetch": "^3.2.6",
-    "nodemon": "^3.1.0",
     "postman-request": "^2.88.1-postman.33"
   },
   "description": "",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
 }

@@ -11,7 +11,7 @@ import {forecast} from './forecast.js'
 import {geocode} from './geocode.js'
 
 // Web app/server directory location
-const dirpath = new URL('.', import.meta.url).pathname
+const dirpath = new URL('..', import.meta.url).pathname
 // location of static files to be provided like css , image or client side js script files
 const staticPath = path.join(dirpath, 'public')
 // location of views to be renedered
